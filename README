@@ -1,0 +1,16 @@
+MySQL plugin for Ohai
+
+Currently can be used to list a servers active slaves, and/or 
+replicaiton master. 
+
+Requires:
+
+mysql
+yaml
+
+Configuration:
+
+This plugin uses /etc/chef/mysql.yml to load the username and
+password for the plugin. The plugin provides no defaults.
+
+
